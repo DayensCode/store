@@ -8,6 +8,7 @@
 
 <script setup>
 	const { id } = useRoute().params
+	definePageMeta({ layout: "forproduct" })
 </script>
 
 
