@@ -27,7 +27,5 @@
 </template>
 
 <style scoped>
-.router-link-exact-active {
-	color: #cacaca;
-}
+
 </style>
