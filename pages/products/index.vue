@@ -12,6 +12,13 @@
 <script setup>
 //fetch the products
 	const { data: products } = await useFetch('https://fakestoreapi.com/products')
+
+	useHead({
+		title: 'Store | Products',
+		meta: [
+			{ name: 'description', content: 'Some products' }
+		]
+	})
 </script>
 
 
